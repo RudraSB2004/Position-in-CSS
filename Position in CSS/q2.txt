@@ -1,0 +1,15 @@
+Explain the difference between Absolute and Relative positioning.
+->Relative position places an element relative to its current position.
+Absolute places an element relative to its parents position.
+
+Relative positioning:
+# Places an element relative to its current position
+# Doesn't change the layout around it
+# Can be moved
+# Positioned relative to itself
+
+Absolute positioning:
+# places an element relative to its parents position
+# Changes the layout around it
+# positioned relative to its first positioned parents
+# if there is a parent, it works like fixed
